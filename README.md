@@ -1,6 +1,6 @@
 # 🚀 My First Web API – Spring Boot
 
-A simple RESTful API built with Java and Spring Boot, focused on learning backend development fundamentals.  
+A simple RESTful API built with **Java** and **Spring Boot**, focused on learning backend development fundamentals.
 
 This application simulates user management operations such as create, read, update, and delete (CRUD), using a mocked repository layer (no database integration).
 
@@ -8,18 +8,18 @@ This application simulates user management operations such as create, read, upda
 
 ## 🛠️ Tech Stack
 
-- Java 21
-- Spring Boot
-- Spring Web MVC
-- Maven
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![REST API](https://img.shields.io/badge/REST-FF6C37?style=for-the-badge)
 
 ---
 
 ## 🏗️ Architecture
 
-The project follows a layered architecture pattern:
+The project follows a **layered architecture pattern**:
 
-Controller → Service → Repository (Mocked)
+**Controller → Service → Repository (Mocked)**
 
 - **Controller Layer** – Handles HTTP requests and REST endpoints  
 - **Service Layer** – Contains business logic  
@@ -29,22 +29,22 @@ Controller → Service → Repository (Mocked)
 
 ## 🔗 REST Endpoints
 
-| Method | Endpoint        | Description              |
-|--------|-----------------|--------------------------|
-| POST   | /users          | Create a new user        |
-| GET    | /users          | Retrieve all users       |
-| GET    | /users/{id}     | Retrieve user by ID      |
-| PUT    | /users/{id}     | Update a user            |
-| DELETE | /users/{id}     | Delete a user            |
+| Method | Endpoint       | Description           |
+|--------|----------------|---------------------|
+| POST   | `/users`       | Create a new user    |
+| GET    | `/users`       | Retrieve all users   |
+| GET    | `/users/{id}`  | Retrieve user by ID  |
+| PUT    | `/users/{id}`  | Update a user        |
+| DELETE | `/users/{id}`  | Delete a user        |
 
 ---
 
 ## 🎯 Project Goals
 
-- Practice REST API development with Spring Boot  
-- Understand layered architecture concepts  
-- Learn HTTP methods and REST conventions  
-- Simulate data persistence without a database  
+- Practice **REST API development** with Spring Boot  
+- Understand **layered architecture** concepts  
+- Learn **HTTP methods** and REST conventions  
+- Simulate **data persistence** without a database  
 
 ---
 
@@ -52,18 +52,3 @@ Controller → Service → Repository (Mocked)
 
 ```bash
 mvn spring-boot:run
-```
-
-The API will be available at:
-
-```
-http://localhost:8080
-```
-
----
-
-## 👨‍💻 Author
-
-Djalma Ponciano Rodrigues  
-
-This project was developed for educational purposes and backend learning practice.
